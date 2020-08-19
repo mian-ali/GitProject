@@ -1,0 +1,245 @@
+*
+{
+margin: 0;
+padding: 0;
+
+}
+.bokta-img
+{
+
+height:150vh ;
+width: 100%;
+border: 1px solid black;
+background-image:linear-gradient(rgba(38,43,157,.7),rgba(38,43,157,.7)),url('imgs/hero-bg.png');
+position: relative;
+}
+.ww
+{
+height: 50px;
+width: 100%;
+border: 1px solid black;
+}
+nav
+{
+height: 15vh;
+width: 100%;
+border: 1px solid red;
+position: sticky;
+top: 0;
+z-index: 1;
+/* background-color: white; */
+}
+.logo
+{
+    position: absolute;
+    left: 20vh;
+top:2vh;
+}
+.logo:hover
+{
+    cursor: pointer;
+}
+.ul1 li
+{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-left: 5vh;
+}
+.ul1
+{
+    position: absolute;
+    right: 50vh;
+    top: 6vh;
+}
+.ul1 li:hover
+{
+
+    color:#F065A4;
+    transition-duration: 1s;
+
+}
+#btn1
+{
+height: 12vh;
+width: 30vh;
+background-color: #F065A4;
+border: none;
+outline: none;
+border-radius: 10px;
+position: absolute;
+right: 10vh;
+color:white;
+font-size: large;
+top: 2vh;
+}
+#btn1:hover
+{
+    cursor: pointer;
+}
+.heading1
+{
+    color: white;
+    font-size:15vh;
+    position: absolute;
+    left: 20vh;
+    top: 40vh;
+}
+.div
+{
+    height: 85vh;
+    width: 75vh;
+    background-color: #2A1E70;
+    position:absolute;
+    right: 10vh;
+    top:50vh;
+}
+.inpt1
+{
+height: 10vh;
+width: 85%;
+background-color: #3B3080;
+border: none;
+outline: none;
+border-radius: 10px;
+position: absolute;
+left: 5vh;
+top: 13vh;
+color: white;
+}
+.inpt2
+{
+height: 10vh;
+width: 85%;
+background-color: #3B3080;
+border: none;
+outline: none;
+border-radius: 10px;
+position: absolute;
+left: 5vh;
+top: 26vh;
+color: white;
+}
+.inpt3
+{
+height: 10vh;
+width: 85%;
+background-color: #3B3080;
+border: none;
+outline: none;
+border-radius: 10px;
+position: absolute;
+left: 5vh;
+top: 39vh;
+color: white;
+}
+.inpt4
+{
+height: 10vh;
+width: 85%;
+background-color: #3B3080;
+border: none;
+outline: none;
+border-radius: 10px;
+position: absolute;
+left: 5vh;
+top: 52vh;
+color: white;
+}
+.fa-caret-down
+{
+    height: 10vh;
+    width: 40px;
+    color: white;
+    position: absolute;
+    right:6vh ;
+    bottom: 20vh;
+}
+#btn2
+{
+height: 10vh;
+width: 25vh;
+background-color: #F065A4;
+position: absolute;
+bottom: 7vh;
+left: 24vh;
+border: none;
+outline: none;
+border-radius: 10px;
+color: white;
+font-size: large;
+cursor: pointer;
+}
+
+/* /////////timer box////////// */
+
+.tim
+{
+
+height: 30vh;
+width: 50%;
+border: 1px solid yellow;
+position: relative;
+left: 19vh;
+top: 80vh;
+
+}
+.box1
+{
+
+height: 20vh;
+width: 20%;
+background-color:#e544c5;
+float: left;
+position: absolute;
+/* left: 2vh; */
+bottom: 4vh;
+border-radius: 10px;
+}
+.box1:nth-child(1)
+{
+    /* background-image: linear-gradient(rgba(229, 68, 197, 7),rgba(229, 68, 197,7)); */
+    opacity: .7;
+}
+.box1:nth-child(2)
+{
+    height: 20vh;
+    width: 20%;
+    background-color: #3584e7;
+    float: left;
+    position: absolute;
+    left: 27vh;
+    opacity: .7;
+}
+.box1:nth-child(3)
+{
+    height: 20vh;
+    width: 20%;
+    background-color: #f39a5e;
+    float: left;
+    position: absolute;
+    left: 55vh;
+    opacity: .7;
+}
+.box1:nth-child(4)
+{
+    height: 20vh;
+    width: 20%;
+    background-color:  #a24407;
+    float: left;
+    position: absolute;
+    left: 84vh;
+    opacity: .7;
+}
+.din 
+{
+color: white;
+text-align: center;
+font-size: 10vh;
+
+}
+.days
+{
+    text-align: center;
+    color: white;
+}
